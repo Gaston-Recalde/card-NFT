@@ -16,7 +16,7 @@ body{
     height: 100vh;
 }
 
-.card-container{
+.container{
     background: hsl(216, 50%, 16%);
     width:300px;
     height:525px;
@@ -102,30 +102,30 @@ p{
     font-weight: 700;
 }
 
-.time-out{
+.time__out{
     display: flex;
     flex-wrap: nowrap;
     justify-content: right;
     align-items: center;
 }
 
-.time-out p{
+.time__out p{
     margin-bottom: 15px;
     margin-left: 5px;
 }
 
-.time-out img{
+.time__out img{
     margin-bottom: 15px;
 }
 
-.card-info{
+.card__info{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     margin-left: 15px;
 }
 
-.card-info img{
+.card__info img{
     width: 35px;
     height: auto;
     border-radius: 50%;
@@ -133,7 +133,7 @@ p{
     margin-right: 20px;
 }
 
-.card-info p{
+.card__info p{
     margin: 5px;
 }
 
